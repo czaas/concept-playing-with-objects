@@ -1,1 +1,1 @@
-$(document).ready(function(){display.players()});
+$(document).ready(function(){display.players(),$("#submitNameFilter").on("click",display.searchForName),$("#resetTable").on("click",display.resetTable)});
